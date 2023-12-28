@@ -1,0 +1,11 @@
+export enum Card_Enum {
+    VISA = "VISA",
+    MASTERCARD = "MASTERCARD",
+    AMEX = "AMEX",
+    DISCOVER = "DISCOVER",
+    DINERS = "DINERS",
+    DINERS_CARTE_BLANCHE = "DINERS_CARTE_BLANCHE",
+    JCB = "JCB",
+    VISA_ELECTRON = "VISA_ELECTRON",
+    OTHER = "OTHER",
+}
