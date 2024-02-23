@@ -11,3 +11,4 @@ export * from "./Unit";
 export * from "./Theme";
 export * from "./Card";
 export * from "./T";
+export * from "./Alert";
