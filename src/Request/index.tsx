@@ -11,7 +11,7 @@ export enum RequestResultTypeProps {
 export interface RequestResultDataProps<
     R = any,
     E = any,
-    T = RequestResultTypeProps,
+    T = RequestResultTypeProps | keyof typeof RequestResultTypeProps,
 > {
     type: T;
     result?: R;

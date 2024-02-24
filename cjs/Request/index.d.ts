@@ -6,7 +6,7 @@ export declare enum RequestResultTypeProps {
     NORMAL = "NORMAL",
     WARNING = "WARNING"
 }
-export interface RequestResultDataProps<R = any, E = any, T = RequestResultTypeProps> {
+export interface RequestResultDataProps<R = any, E = any, T = RequestResultTypeProps | keyof typeof RequestResultTypeProps> {
     type: T;
     result?: R;
     error?: ErrorProps<E>;
