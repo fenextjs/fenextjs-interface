@@ -5,6 +5,8 @@ export declare enum FileStatus {
     "REFUSED" = "REFUSED"
 }
 export interface FileProps {
+    uuid?: string;
+    id?: string;
     text?: string;
     extend?: string;
     fileData: any;
