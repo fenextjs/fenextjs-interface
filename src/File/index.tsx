@@ -2,7 +2,7 @@ export enum FileStatus {
     "NONE" = "NONE",
     "APPROVED" = "APPROVED",
     "PENDING" = "PENDING",
-    "REJECTED" = "REJECTED",
+    "REFUSED" = "REFUSED",
 }
 
 export interface FileProps {

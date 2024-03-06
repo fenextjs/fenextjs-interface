@@ -6,6 +6,6 @@ var FileStatus;
     FileStatus["NONE"] = "NONE";
     FileStatus["APPROVED"] = "APPROVED";
     FileStatus["PENDING"] = "PENDING";
-    FileStatus["REJECTED"] = "REJECTED";
+    FileStatus["REFUSED"] = "REFUSED";
 })(FileStatus || (exports.FileStatus = FileStatus = {}));
 //# sourceMappingURL=index.js.map
