@@ -13,7 +13,7 @@ export interface CityProps {
     id: number;
     id_state: number;
     text: string;
-    id_country?: number;
+    id_country: number;
     nameAve?: string | undefined;
 }
 export interface CSCProps {
