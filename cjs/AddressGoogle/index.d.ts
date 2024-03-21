@@ -103,6 +103,8 @@ export interface AddressGoogle {
     adr_address?: string;
     aspects?: PlaceAspectRating[];
     business_status?: BusinessStatus;
+    lat?: number;
+    lng?: number;
     formatted_address?: string;
     formatted_phone_number?: string;
     geometry?: PlaceGeometry;
