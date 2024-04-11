@@ -21,3 +21,8 @@ export interface CSCProps {
     state?: StateProps;
     city?: CityProps;
 }
+export interface CSCStringProps {
+    country?: string;
+    state?: string;
+    city?: string;
+}
