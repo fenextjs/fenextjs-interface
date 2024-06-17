@@ -12,4 +12,4 @@ export * from "./Theme";
 export * from "./Card";
 export * from "./T";
 export * from "./Alert";
-export * from "./TimeZone"
+export * from "./TimeZone";
