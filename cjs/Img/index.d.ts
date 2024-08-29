@@ -11,6 +11,10 @@ export interface ImgDataProps {
      */
     name?: string;
     /**
+     * The alt of de Img.
+     */
+    alt?: string;
+    /**
      * Url of Img.
      */
     src: string;
