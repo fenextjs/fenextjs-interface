@@ -2,7 +2,7 @@ export default {
     id: "Date",
     name: "Date",
     description: "Tipos de fechas y días de la semana utilizados para la configuración de fechas y calendarios.",
-    properties: [],
+    props: [],
     extras: [
         {
             id: "typeDate",

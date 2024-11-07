@@ -3,7 +3,7 @@ export default {
     name: "ErrorProps",
     description:
         "Interfaz para representar detalles de un error en una aplicación, incluyendo código, mensaje y datos adicionales.",
-    properties: [
+        props: [
         {
             id: "code",
             type: "ErrorCode (opcional)",

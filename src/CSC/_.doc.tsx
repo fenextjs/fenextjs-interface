@@ -2,7 +2,7 @@ export default {
     id: "cscProps",
     name: "CSCProps",
     description: "Interfaz que define las propiedades relacionadas con un país, estado y ciudad, junto con versiones de texto de cada una.",
-    properties: [
+    props: [
         {
             id: "country",
             type: "CountryProps (opcional)",

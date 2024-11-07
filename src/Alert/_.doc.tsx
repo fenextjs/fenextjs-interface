@@ -2,7 +2,7 @@ export default {
     id: "alertProps",
     name: "AlertProps",
     description: "Interfaz que define las propiedades para configurar una alerta.",
-    properties: [
+    props: [
         {
             id: "message",
             type: "string",
