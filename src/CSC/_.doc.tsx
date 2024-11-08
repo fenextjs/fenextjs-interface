@@ -1,28 +1,32 @@
 export default {
     id: "cscProps",
     name: "CSCProps",
-    description: "Interfaz que define las propiedades relacionadas con un país, estado y ciudad, junto con versiones de texto de cada una.",
+    description:
+        "Interfaz que define las propiedades relacionadas con un país, estado y ciudad, junto con versiones de texto de cada una.",
     props: [
         {
             id: "country",
             type: "CountryProps (opcional)",
             required: false,
             default: "undefined",
-            description: "Propiedades del país seleccionadas, definidas en la interfaz `CountryProps`.",
+            description:
+                "Propiedades del país seleccionadas, definidas en la interfaz `CountryProps`.",
         },
         {
             id: "state",
             type: "StateProps (opcional)",
             required: false,
             default: "undefined",
-            description: "Propiedades del estado seleccionado, definidas en la interfaz `StateProps`.",
+            description:
+                "Propiedades del estado seleccionado, definidas en la interfaz `StateProps`.",
         },
         {
             id: "city",
             type: "CityProps (opcional)",
             required: false,
             default: "undefined",
-            description: "Propiedades de la ciudad seleccionada, definidas en la interfaz `CityProps`.",
+            description:
+                "Propiedades de la ciudad seleccionada, definidas en la interfaz `CityProps`.",
         },
     ],
     extras: [
@@ -141,7 +145,8 @@ export default {
         {
             id: "cscStringProps",
             title: "CSCStringProps",
-            description: "Interfaz alternativa que define los valores de país, estado y ciudad como cadenas de texto.",
+            description:
+                "Interfaz alternativa que define los valores de país, estado y ciudad como cadenas de texto.",
             tableItems: [
                 {
                     id: "country",

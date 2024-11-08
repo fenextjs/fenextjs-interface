@@ -1,7 +1,8 @@
 export default {
     id: "imgDataProps",
     name: "ImgDataProps",
-    description: "Interfaz que define las propiedades para configurar la imagen base en el componente Img.",
+    description:
+        "Interfaz que define las propiedades para configurar la imagen base en el componente Img.",
     props: [
         {
             id: "id",
@@ -85,14 +86,16 @@ export default {
             type: "string (opcional)",
             required: false,
             default: "undefined",
-            description: "URL de la imagen en miniatura para tamaños de 200x200px o mayores.",
+            description:
+                "URL de la imagen en miniatura para tamaños de 200x200px o mayores.",
         },
         {
             id: "srcThumbnail_100",
             type: "string (opcional)",
             required: false,
             default: "undefined",
-            description: "URL de la imagen en miniatura para tamaños de 100x100px o mayores.",
+            description:
+                "URL de la imagen en miniatura para tamaños de 100x100px o mayores.",
         },
     ],
 };

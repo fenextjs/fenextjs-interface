@@ -1,7 +1,8 @@
 export default {
     id: "userProps",
     name: "UserProps",
-    description: "Interfaz que define las propiedades para un usuario, incluyendo su estado, rol y detalles de verificación.",
+    description:
+        "Interfaz que define las propiedades para un usuario, incluyendo su estado, rol y detalles de verificación.",
     props: [
         {
             id: "status",
@@ -78,18 +79,32 @@ export default {
             type: "{ [id in UserTypeVerifyProps]: UserStatusProps } (opcional)",
             required: false,
             default: "undefined",
-            description: "Información de verificación para distintos tipos, como email, teléfono y empresa.",
+            description:
+                "Información de verificación para distintos tipos, como email, teléfono y empresa.",
         },
     ],
     extras: [
         {
             id: "userTypeVerifyProps",
             title: "UserTypeVerifyProps",
-            description: "Enumeración que define los tipos de verificación para un usuario.",
+            description:
+                "Enumeración que define los tipos de verificación para un usuario.",
             tableItems: [
-                { key: "email", value: "0", description: "Verificación por correo electrónico." },
-                { key: "phone", value: "1", description: "Verificación por número de teléfono." },
-                { key: "company", value: "2", description: "Verificación de empresa." },
+                {
+                    key: "email",
+                    value: "0",
+                    description: "Verificación por correo electrónico.",
+                },
+                {
+                    key: "phone",
+                    value: "1",
+                    description: "Verificación por número de teléfono.",
+                },
+                {
+                    key: "company",
+                    value: "2",
+                    description: "Verificación de empresa.",
+                },
             ],
         },
         {
@@ -97,10 +112,26 @@ export default {
             title: "UserStatusProps",
             description: "Enumeración que define los estados de un usuario.",
             tableItems: [
-                { key: "VERIFY", value: "'VERIFY'", description: "Usuario verificado." },
-                { key: "NOVERIFY", value: "'NOVERIFY'", description: "Usuario no verificado." },
-                { key: "BAN", value: "'BAN'", description: "Usuario prohibido (ban)." },
-                { key: "PENDING", value: "'PENDING'", description: "Verificación pendiente del usuario." },
+                {
+                    key: "VERIFY",
+                    value: "'VERIFY'",
+                    description: "Usuario verificado.",
+                },
+                {
+                    key: "NOVERIFY",
+                    value: "'NOVERIFY'",
+                    description: "Usuario no verificado.",
+                },
+                {
+                    key: "BAN",
+                    value: "'BAN'",
+                    description: "Usuario prohibido (ban).",
+                },
+                {
+                    key: "PENDING",
+                    value: "'PENDING'",
+                    description: "Verificación pendiente del usuario.",
+                },
             ],
         },
         {
@@ -108,9 +139,21 @@ export default {
             title: "UserRoleProps",
             description: "Enumeración que define los roles de un usuario.",
             tableItems: [
-                { key: "ADMIN", value: "'ADMIN'", description: "Usuario con rol de administrador." },
-                { key: "CUSTOMER", value: "'CUSTOMER'", description: "Usuario con rol de cliente." },
-                { key: "BACKOFFICE", value: "'BACKOFFICE'", description: "Usuario con rol de backoffice." },
+                {
+                    key: "ADMIN",
+                    value: "'ADMIN'",
+                    description: "Usuario con rol de administrador.",
+                },
+                {
+                    key: "CUSTOMER",
+                    value: "'CUSTOMER'",
+                    description: "Usuario con rol de cliente.",
+                },
+                {
+                    key: "BACKOFFICE",
+                    value: "'BACKOFFICE'",
+                    description: "Usuario con rol de backoffice.",
+                },
             ],
         },
     ],

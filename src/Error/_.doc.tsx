@@ -3,13 +3,14 @@ export default {
     name: "ErrorProps",
     description:
         "Interfaz para representar detalles de un error en una aplicación, incluyendo código, mensaje y datos adicionales.",
-        props: [
+    props: [
         {
             id: "code",
             type: "ErrorCode (opcional)",
             required: false,
             default: "undefined",
-            description: "Código del error específico, definido en el enumerador `ErrorCode`.",
+            description:
+                "Código del error específico, definido en el enumerador `ErrorCode`.",
         },
         {
             id: "message",
@@ -23,14 +24,16 @@ export default {
             type: "D (opcional)",
             required: false,
             default: "undefined",
-            description: "Datos adicionales sobre el error, de tipo genérico `D`.",
+            description:
+                "Datos adicionales sobre el error, de tipo genérico `D`.",
         },
     ],
     extras: [
         {
             id: "errorCode",
             title: "ErrorCode",
-            description: "Enumeración que define los posibles códigos de error en la aplicación.",
+            description:
+                "Enumeración que define los posibles códigos de error en la aplicación.",
             tableItems: [
                 {
                     key: "ERROR",
@@ -60,7 +63,8 @@ export default {
                 {
                     key: "UNAUTHORIZED",
                     value: "'UNAUTHORIZED'",
-                    description: "Usuario no autorizado para realizar esta acción.",
+                    description:
+                        "Usuario no autorizado para realizar esta acción.",
                 },
                 {
                     key: "FORBIDDEN",
@@ -75,7 +79,8 @@ export default {
                 {
                     key: "TIMEOUT",
                     value: "'TIMEOUT'",
-                    description: "La solicitud ha excedido el tiempo de espera.",
+                    description:
+                        "La solicitud ha excedido el tiempo de espera.",
                 },
                 {
                     key: "NETWORK_ERROR",
@@ -140,7 +145,8 @@ export default {
                 {
                     key: "INPUT_NOT_EQUAL",
                     value: "'INPUT_NOT_EQUAL'",
-                    description: "La entrada no coincide con el valor esperado.",
+                    description:
+                        "La entrada no coincide con el valor esperado.",
                 },
                 {
                     key: "INPUT_REQUIRED",
@@ -165,7 +171,8 @@ export default {
                 {
                     key: "INPUT_PATTERN_MISMATCH",
                     value: "'INPUT_PATTERN_MISMATCH'",
-                    description: "La entrada no coincide con el patrón requerido.",
+                    description:
+                        "La entrada no coincide con el patrón requerido.",
                 },
                 {
                     key: "INPUT_VALUE_TOO_LOW",

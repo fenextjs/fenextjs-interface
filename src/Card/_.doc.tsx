@@ -1,12 +1,14 @@
 export default {
     id: "card_enum",
     name: "Card_Enum",
-    description: "Enumeración que define los diferentes tipos de tarjetas de crédito y débito reconocidas.",
+    description:
+        "Enumeración que define los diferentes tipos de tarjetas de crédito y débito reconocidas.",
     extras: [
         {
             id: "card_enum",
             title: "Card_Enum",
-            description: "Enumeración que contiene las opciones para los tipos de tarjeta reconocidos.",
+            description:
+                "Enumeración que contiene las opciones para los tipos de tarjeta reconocidos.",
             tableItems: [
                 {
                     key: "VISA",
@@ -51,7 +53,8 @@ export default {
                 {
                     key: "OTHER",
                     value: "'OTHER'",
-                    description: "Tipo de tarjeta desconocido o no especificado.",
+                    description:
+                        "Tipo de tarjeta desconocido o no especificado.",
                 },
             ],
         },

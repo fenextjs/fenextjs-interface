@@ -1,7 +1,8 @@
 export default {
     id: "addressGoogle",
     name: "AddressGoogle",
-    description: "Interfaz que representa una dirección en el sistema de Google Maps.",
+    description:
+        "Interfaz que representa una dirección en el sistema de Google Maps.",
     props: [
         {
             id: "address_components",
@@ -22,14 +23,16 @@ export default {
             type: "PlaceAspectRating[] (opcional)",
             required: false,
             default: "undefined",
-            description: "Aspectos específicos del lugar, cada uno con su propia valoración.",
+            description:
+                "Aspectos específicos del lugar, cada uno con su propia valoración.",
         },
         {
             id: "business_status",
             type: "BusinessStatus (opcional)",
             required: false,
             default: "undefined",
-            description: "Estado de operación del negocio (abierto, cerrado temporalmente, etc.).",
+            description:
+                "Estado de operación del negocio (abierto, cerrado temporalmente, etc.).",
         },
         {
             id: "lat",
@@ -58,7 +61,8 @@ export default {
         {
             id: "GeocoderAddressComponent",
             title: "GeocoderAddressComponent",
-            description: "Interfaz para componentes de una dirección en el sistema de geocodificación.",
+            description:
+                "Interfaz para componentes de una dirección en el sistema de geocodificación.",
             tableItems: [
                 {
                     key: "long_name",
@@ -68,7 +72,8 @@ export default {
                 {
                     key: "short_name",
                     value: "string",
-                    description: "Nombre abreviado del componente de dirección.",
+                    description:
+                        "Nombre abreviado del componente de dirección.",
                 },
                 {
                     key: "types",
@@ -80,7 +85,8 @@ export default {
         {
             id: "PlaceAspectRating",
             title: "PlaceAspectRating",
-            description: "Interfaz para clasificaciones de aspectos de un lugar.",
+            description:
+                "Interfaz para clasificaciones de aspectos de un lugar.",
             tableItems: [
                 {
                     key: "rating",
@@ -97,7 +103,8 @@ export default {
         {
             id: "BusinessStatus",
             title: "BusinessStatus",
-            description: "Enum que define los diferentes estados de operación de un negocio.",
+            description:
+                "Enum que define los diferentes estados de operación de un negocio.",
             tableItems: [
                 {
                     key: "CLOSED_PERMANENTLY",

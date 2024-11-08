@@ -1,18 +1,21 @@
 export default {
     id: "Date",
     name: "Date",
-    description: "Tipos de fechas y días de la semana utilizados para la configuración de fechas y calendarios.",
+    description:
+        "Tipos de fechas y días de la semana utilizados para la configuración de fechas y calendarios.",
     props: [],
     extras: [
         {
             id: "typeDate",
             title: "TypeDate",
-            description: "Tipo que define los valores posibles para configurar una selección de fecha.",
+            description:
+                "Tipo que define los valores posibles para configurar una selección de fecha.",
             tableItems: [
                 {
                     key: "date",
                     value: "'date'",
-                    description: "Permite la selección de una fecha específica.",
+                    description:
+                        "Permite la selección de una fecha específica.",
                 },
                 {
                     key: "month",
@@ -22,7 +25,8 @@ export default {
                 {
                     key: "week",
                     value: "'week'",
-                    description: "Permite la selección de una semana específica.",
+                    description:
+                        "Permite la selección de una semana específica.",
                 },
                 {
                     key: "time",

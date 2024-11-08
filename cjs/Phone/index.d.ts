@@ -1,4 +1,4 @@
-import { CountryProps } from "@/CSC";
+import { CountryProps } from "../CSC";
 export interface PhoneCodeProps {
     img?: string;
     code: string;

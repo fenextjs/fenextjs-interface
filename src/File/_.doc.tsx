@@ -1,7 +1,8 @@
 export default {
     id: "fileProps",
     name: "FileProps",
-    description: "Interfaz que define las propiedades para configurar un archivo.",
+    description:
+        "Interfaz que define las propiedades para configurar un archivo.",
     props: [
         {
             id: "uuid",
@@ -57,34 +58,40 @@ export default {
             type: "FileStatus | keyof typeof FileStatus (opcional)",
             required: false,
             default: "undefined",
-            description: "Especifica el estado del archivo; acepta un valor del enum `FileStatus` o una cadena equivalente.",
+            description:
+                "Especifica el estado del archivo; acepta un valor del enum `FileStatus` o una cadena equivalente.",
         },
     ],
     extras: [
         {
             id: "fileStatus",
             title: "FileStatus",
-            description: "Enumeración que define los diferentes estados disponibles para un archivo.",
+            description:
+                "Enumeración que define los diferentes estados disponibles para un archivo.",
             tableItems: [
                 {
                     key: "NONE",
                     value: "'NONE'",
-                    description: "Estado que indica que no se ha asignado ningún estado al archivo.",
+                    description:
+                        "Estado que indica que no se ha asignado ningún estado al archivo.",
                 },
                 {
                     key: "APPROVED",
                     value: "'APPROVED'",
-                    description: "Estado que indica que el archivo ha sido aprobado.",
+                    description:
+                        "Estado que indica que el archivo ha sido aprobado.",
                 },
                 {
                     key: "PENDING",
                     value: "'PENDING'",
-                    description: "Estado que indica que el archivo está pendiente de revisión.",
+                    description:
+                        "Estado que indica que el archivo está pendiente de revisión.",
                 },
                 {
                     key: "REFUSED",
                     value: "'REFUSED'",
-                    description: "Estado que indica que el archivo ha sido rechazado.",
+                    description:
+                        "Estado que indica que el archivo ha sido rechazado.",
                 },
             ],
         },

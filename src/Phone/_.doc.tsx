@@ -1,7 +1,8 @@
 export default {
     id: "phoneProps",
     name: "PhoneProps",
-    description: "Interfaz que define las propiedades de un número de teléfono, incluyendo el código de país y la bandera.",
+    description:
+        "Interfaz que define las propiedades de un número de teléfono, incluyendo el código de país y la bandera.",
     props: [
         {
             id: "img",
@@ -29,7 +30,8 @@ export default {
             type: "CountryProps (opcional)",
             required: false,
             default: "undefined",
-            description: "Propiedades adicionales del país, definidas por la interfaz `CountryProps`.",
+            description:
+                "Propiedades adicionales del país, definidas por la interfaz `CountryProps`.",
         },
         {
             id: "number",
@@ -43,14 +45,16 @@ export default {
             type: "string (opcional)",
             required: false,
             default: "undefined",
-            description: "Número de teléfono en formato 'tel' para enlaces de marcación rápida.",
+            description:
+                "Número de teléfono en formato 'tel' para enlaces de marcación rápida.",
         },
     ],
     extras: [
         {
             id: "phoneCodeProps",
             title: "PhoneCodeProps",
-            description: "Interfaz que define las propiedades relacionadas con el código telefónico de un país.",
+            description:
+                "Interfaz que define las propiedades relacionadas con el código telefónico de un país.",
             tableItems: [
                 {
                     key: "img",
