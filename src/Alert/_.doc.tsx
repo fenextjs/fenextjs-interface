@@ -39,7 +39,7 @@ export default {
                     key: "OK",
                     value: "'OK'",
                     description:
-                        "Tipo de alerta que indica que la operación fue exitosa.",
+                        "Tipo de alerta que indica que la operación fue éxitosa.",
                 },
                 {
                     key: "ERROR",

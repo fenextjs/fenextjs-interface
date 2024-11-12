@@ -17,7 +17,7 @@ export default {
             type: "R (opcional)",
             required: false,
             default: "undefined",
-            description: "El resultado de la solicitud si esta fue exitosa.",
+            description: "El resultado de la solicitud si esta fue éxitosa.",
         },
         {
             id: "error",
@@ -46,7 +46,7 @@ export default {
                 {
                     key: "OK",
                     value: "'OK'",
-                    description: "Indica que la solicitud fue exitosa.",
+                    description: "Indica que la solicitud fue éxitosa.",
                 },
                 {
                     key: "ERROR",
