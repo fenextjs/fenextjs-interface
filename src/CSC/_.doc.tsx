@@ -70,6 +70,13 @@ export default {
                     default: "undefined",
                     description: "Código telefónico del país.",
                 },
+                {
+                    id: "lang",
+                    type: "string (opcional)",
+                    required: false,
+                    default: "undefined",
+                    description: "Código idioma del país.",
+                },
             ],
         },
         {
