@@ -6,7 +6,7 @@ export default {
     props: [
         {
             id: "code",
-            type: "ErrorCode (opcional)",
+            type: "ErrorCode",
             required: false,
             default: "undefined",
             description:
@@ -14,18 +14,25 @@ export default {
         },
         {
             id: "message",
-            type: "string (opcional)",
+            type: "string",
             required: false,
             default: "undefined",
             description: "Mensaje descriptivo del error.",
         },
         {
             id: "data",
-            type: "D (opcional)",
+            type: "D",
             required: false,
             default: "undefined",
             description:
                 "Datos adicionales sobre el error, de tipo genérico `D`.",
+        },
+        {
+            id: "content",
+            type: "any",
+            required: false,
+            default: "undefined",
+            description: "Contenido que se muestra sustituyendo 'message'.",
         },
     ],
     extras: [
