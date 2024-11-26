@@ -35,5 +35,6 @@ export enum ErrorCode {
 export interface ErrorProps<D = any> {
     code?: ErrorCode;
     message?: string;
+    content?: any;
     data?: D;
 }
