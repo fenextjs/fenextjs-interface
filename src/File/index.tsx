@@ -6,7 +6,7 @@ export enum FileStatus {
 }
 
 export interface FileProps {
-    file?:File
+    file?: File;
     uuid?: string;
     id?: string;
     text?: string;
