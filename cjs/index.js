@@ -7,7 +7,7 @@ tslib_1.__exportStar(require("./Phone"), exports);
 tslib_1.__exportStar(require("./Request"), exports);
 tslib_1.__exportStar(require("./Error"), exports);
 tslib_1.__exportStar(require("./CSC"), exports);
-tslib_1.__exportStar(require("./Date"), exports);
+tslib_1.__exportStar(require("./Day"), exports);
 tslib_1.__exportStar(require("./File"), exports);
 tslib_1.__exportStar(require("./Img"), exports);
 tslib_1.__exportStar(require("./Unit"), exports);
@@ -17,4 +17,6 @@ tslib_1.__exportStar(require("./T"), exports);
 tslib_1.__exportStar(require("./Alert"), exports);
 tslib_1.__exportStar(require("./TimeZone"), exports);
 tslib_1.__exportStar(require("./Pagination"), exports);
+tslib_1.__exportStar(require("./Search"), exports);
+tslib_1.__exportStar(require("./Date"), exports);
 //# sourceMappingURL=index.js.map

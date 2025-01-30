@@ -6,14 +6,14 @@ export default {
     props: [
         {
             id: "page",
-            type: "number (opcional)",
+            type: "number",
             required: false,
             default: "undefined",
             description: "Pagina actual.",
         },
         {
             id: "npage",
-            type: "number (opcional)",
+            type: "number",
             required: false,
             default: "undefined",
             description: "Numero de elementos por pagina.",
